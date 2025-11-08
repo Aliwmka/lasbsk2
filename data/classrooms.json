@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "class_name": "5А",
+    "teacher_id": 1,
+    "student_count": 25,
+    "grade_level": 5
+  },
+  {
+    "id": 2,
+    "class_name": "10Б",
+    "teacher_id": 2,
+    "student_count": 20,
+    "grade_level": 10
+  },
+  {
+    "id": 3,
+    "class_name": "7В",
+    "teacher_id": 3,
+    "student_count": 28,
+    "grade_level": 7
+  },
+  {
+    "id": 4,
+    "class_name": "11А",
+    "teacher_id": 1,
+    "student_count": 22,
+    "grade_level": 11
+  }
+]
