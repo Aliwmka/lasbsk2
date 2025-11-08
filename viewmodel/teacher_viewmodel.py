@@ -80,7 +80,7 @@ class TeacherViewModel:
 
     def delete_teacher(self, teacher_id: int):
         # Проверяем, является ли учитель классным руководителем
-        from main import classroom_vm
+        from custom_main_school import classroom_vm
         teacher_classrooms = [c for c in classroom_vm.classrooms if c.teacher_id == teacher_id]
         if teacher_classrooms:
             classroom_names = ", ".join([c.class_name for c in teacher_classrooms])
